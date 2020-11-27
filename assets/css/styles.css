@@ -1,0 +1,13 @@
+.navbar {
+    background-color: #F4F5EE;
+}
+#nav-img {
+    width: 200px;
+}
+.search-form {
+    width: auto;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
