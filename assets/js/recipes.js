@@ -2,7 +2,7 @@ var recipes = [
     {
         title: "Jack Fruit BBQ",
         description: "A vegan option for BBQ lovers!",
-        mainImg: "./assets/images/jackfuit-bbq.jpeg",
+        mainImg: "./assets/images/jackfruit-bbq.jpeg",
         ingredients: [
             {
                 title: "BBQ Sauce",
@@ -45,7 +45,7 @@ var recipes = [
     {
         title: "Jack Fruit BBQ",
         description: "A vegan option for BBQ lovers!",
-        mainImg: "./assets/images/jackfuit-bbq.jpeg",
+        mainImg: "./assets/images/jackfruit-bbq.jpeg",
         ingredients: [
             {
                 title: "BBQ Sauce",
@@ -88,7 +88,7 @@ var recipes = [
     {
         title: "Jack Fruit BBQ",
         description: "A vegan option for BBQ lovers!",
-        mainImg: "./assets/images/jackfuit-bbq.jpeg",
+        mainImg: "./assets/images/jackfruit-bbq.jpeg",
         ingredients: [
             {
                 title: "BBQ Sauce",
@@ -131,7 +131,7 @@ var recipes = [
     {
         title: "Jack Fruit BBQ",
         description: "A vegan option for BBQ lovers!",
-        mainImg: "./assets/images/jackfuit-bbq.jpeg",
+        mainImg: "./assets/images/jackfruit-bbq.jpeg",
         ingredients: [
             {
                 title: "BBQ Sauce",

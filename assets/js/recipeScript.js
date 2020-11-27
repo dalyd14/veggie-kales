@@ -8,8 +8,9 @@ var recipe = recipes[i]
 
 $("#recipe-title").text(recipe.title)
 $("#description").text(recipe.description)
-// console.log($("#recipe-img"), recipe.mainImg)
-// $("#recipe-img").attr("src", recipe.mainImg)(
+console.log(recipe.mainImg)
+$("#recipe-img").attr("src", recipe.mainImg)
+console.log(recipe.mainImg)
 
 for(var n = 0; n < recipe.ingredients.length; n++) {
     if ("title" in recipe.ingredients[n]) {
