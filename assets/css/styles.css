@@ -13,11 +13,14 @@
 }
 
 .card {
-    width: max-content;
+    max-width: 100%;
+}
+.card-text {
+    word-wrap: break-word;
 }
 .card-img-top {
     height: 340px;
-    width: 340px;
+    width: 100%
 }
 
 #recipe {

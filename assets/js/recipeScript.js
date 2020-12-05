@@ -1,8 +1,8 @@
-var i = parseInt(window.location.search[i])
+var i = parseInt(window.location.search[1])
+
 if(!i) {
     i = 0
 }
-console.log(i)
 
 var recipe = recipes[i]
 

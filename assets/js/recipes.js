@@ -1,174 +1,97 @@
 var recipes = [
     {
-        title: "Jack Fruit BBQ",
-        description: "A vegan option for BBQ lovers!",
-        mainImg: "./assets/images/jackfruit-bbq.jpeg",
+        title: "Sheet Pan Dinner",
+        description: "A quick one pan dinner solution.",
+        mainImg: "./assets/images/sheet-pan.jpg",
         ingredients: [
             {
-                title: "BBQ Sauce",
                 ingreds: [
-                    "2 chipotle peppers",
-                    "1/2 cup ketchup",
-                    "2 garlic cloves",
-                    "1/2 teaspoon cumin",
-                    "black pepper"
-                ]
-            },
-            {
-                title: "Jackfruit",
-                ingreds: [
-                    "1 tbsp olive oil",
-                    "1 small yellow onion",
-                    "1 can jackfruit, drained",
-                    "1/2 cup water"
-                ]
-            },
-            {
-                title: "Quick Slaw",
-                ingreds: [
-                    "2 cups shredded cabbage",
-                    "1/4 cup cilantro",
-                    "1/2 tbsp lime juice"
+                    "1 lb. baby red potatoes, sliced in half",
+                    "1 lb. asparagus, cut into thirds",
+                    "1 medium yellow onion, sliced",
+                    "1 ½ cups baby carrots",
+                    "1 can chickpeas, drained and rinsed",
+                    "1 tsp. dried basil, oregano, thyme, and paprika",
+                    "½ tsp. garlic powder",
+                    "2-3 tbsp olive oil",
+                    "Salt and pepper"                    
                 ]
             }
         ],
-        prepTime: "15 mins",
-        cookTime: "35 mins",
-        totalTime: "50 mins",
+        prepTime: "10 mins",
+        cookTime: "30-40 mins",
+        totalTime: "40-50 mins",
         directions: [
-            "Make the BBQ sauce: In a food processor, blend the chipotle peppers, adobo sauce, ketchup, vinegar, garlic, mustard, paprika, cumin, and a few grinds of pepper until smooth. Set aside.",
-            "Prepare the jackfruit by pulling shredding the pieces with your hands, discarding any harder pieces of the core. In a large skillet, heat 1 tablespoon of olive oil to medium heat. Add the sliced onion and salt and cook, stirring occasionally, until soft, 8 to 10 minutes, turning down the heat as necessary. Next, add the shredded jackfruit and cook 5 minutes, stirring occasionally. If necessary, add a splash of water to keep it from sticking to the pan. Stir in the 1/2 cup water and half of the BBQ sauce. Turn the heat to low, cover, and let simmer for 20 minutes. Remove the cover and stir in half of the remaining BBQ sauce, reserving the rest for serving.",
-            "Make the slaw: In a medium-large bowl, combine the cabbage, cilantro, lime juice, olive oil, and pinches of salt and pepper.",
-            "Serve the sliders with the jackfruit, the remaining BBQ sauce, the slaw, and desired fixings."
+            "Preheat oven to 425°F and line a baking sheet with parchment paper or grease with oil.",
+            "Put potatoes (cut side down), carrots, and chickpeas on the baking sheet and drizzle 1 ½ tbsp of olive oil. Add ¾ of the listed herbs/spices and toss to coat.",
+            "Roast for 20-25 minutes.",
+            "Remove pan from the oven and push the vegetables to one side. Place onion and asparagus alongside the other vegetables on the sheet pan. Toss them in remining oil and spices/herbs. Place back in the oven for 10-15 additional minutes.",
+            "Let cool and serve."            
         ]
     },
     {
-        title: "Jack Fruit BBQ",
-        description: "A vegan option for BBQ lovers!",
-        mainImg: "./assets/images/jackfruit-bbq.jpeg",
+        title: "Mexican Quinoa Casserole",
+        description: "A hearty mexican casserole that is ideal for meal-prepping for the week!",
+        mainImg: "./assets/images/mexican-quinoa-casserole.jpg",
         ingredients: [
             {
-                title: "BBQ Sauce",
                 ingreds: [
-                    "2 chipotle peppers",
-                    "1/2 cup ketchup",
-                    "2 garlic cloves",
-                    "1/2 teaspoon cumin",
-                    "black pepper"
-                ]
-            },
-            {
-                title: "Jackfruit",
-                ingreds: [
-                    "1 tbsp olive oil",
-                    "1 small yellow onion",
-                    "1 can jackfruit, drained",
-                    "1/2 cup water"
-                ]
-            },
-            {
-                title: "Quick Slaw",
-                ingreds: [
-                    "2 cups shredded cabbage",
-                    "1/4 cup cilantro",
-                    "1/2 tbsp lime juice"
+                    "1 cup uncooked quinoa",
+                    "1 cup yellow onion, diced",
+                    "15 oz black beans, drained and rinsed",
+                    "4 oz can diced green chiles",
+                    "28 oz can diced tomatoes, drained",
+                    "1 can yellow corn, rinsed and drained",
+                    "1 tsp cumin, oregano, chili powder",
+                    "1 lime, juiced",
+                    "2 cups shredded Mexican blend cheese",
+                    "Optional: Fresh cilantro, nutritional yeast"
                 ]
             }
         ],
         prepTime: "15 mins",
-        cookTime: "35 mins",
-        totalTime: "50 mins",
+        cookTime: "40 mins",
+        totalTime: "55 mins",
         directions: [
-            "Make the BBQ sauce: In a food processor, blend the chipotle peppers, adobo sauce, ketchup, vinegar, garlic, mustard, paprika, cumin, and a few grinds of pepper until smooth. Set aside.",
-            "Prepare the jackfruit by pulling shredding the pieces with your hands, discarding any harder pieces of the core. In a large skillet, heat 1 tablespoon of olive oil to medium heat. Add the sliced onion and salt and cook, stirring occasionally, until soft, 8 to 10 minutes, turning down the heat as necessary. Next, add the shredded jackfruit and cook 5 minutes, stirring occasionally. If necessary, add a splash of water to keep it from sticking to the pan. Stir in the 1/2 cup water and half of the BBQ sauce. Turn the heat to low, cover, and let simmer for 20 minutes. Remove the cover and stir in half of the remaining BBQ sauce, reserving the rest for serving.",
-            "Make the slaw: In a medium-large bowl, combine the cabbage, cilantro, lime juice, olive oil, and pinches of salt and pepper.",
-            "Serve the sliders with the jackfruit, the remaining BBQ sauce, the slaw, and desired fixings."
+            "Preheat oven to 375°F. Spray 9x13in baking dish with cooking spray.",
+            "Cook quinoa according to package.",
+            "Meanwhile in a large bowl mix onion, beans, corn, green chiles, tomatoes, spices, and lime juice together.",
+            "Once quinoa is cooked add it to the mixture and place in the prepared dish.",
+            "Bake for 30 minutes.",
+            "After baking carefully pull out of the oven and top with cheese (optional: nutritional yeast). Place back in the oven for an additional 10 minutes.",
+            "Let cool, add optional toppings, serve."            
         ]
     },
     {
-        title: "Jack Fruit BBQ",
-        description: "A vegan option for BBQ lovers!",
-        mainImg: "./assets/images/jackfruit-bbq.jpeg",
+        title: "Jackfruit Noodle Soup",
+        description: "A vegan take on the chicken noodle soup classic!",
+        mainImg: "./assets/images/jackfruit-noodle-soup.jpg",
         ingredients: [
             {
-                title: "BBQ Sauce",
                 ingreds: [
-                    "2 chipotle peppers",
-                    "1/2 cup ketchup",
-                    "2 garlic cloves",
-                    "1/2 teaspoon cumin",
-                    "black pepper"
-                ]
-            },
-            {
-                title: "Jackfruit",
-                ingreds: [
-                    "1 tbsp olive oil",
-                    "1 small yellow onion",
-                    "1 can jackfruit, drained",
-                    "1/2 cup water"
-                ]
-            },
-            {
-                title: "Quick Slaw",
-                ingreds: [
-                    "2 cups shredded cabbage",
-                    "1/4 cup cilantro",
-                    "1/2 tbsp lime juice"
+                    "2 cans of jackfruit, seeded and shredded",
+                    "2 cups of carrot, finely chopped",
+                    "1 medium yellow onion, diced",
+                    "1 carton of vegetable stock",
+                    "2 cups of water",
+                    "2 tbsp lemon juice",
+                    "2 tbsp olive oil",
+                    "2 cups of preferred noodles", 
+                    "Added to preference: red pepper flakes, black pepper, salt, Italian seasoning, chili powder, garlic powder",
                 ]
             }
         ],
         prepTime: "15 mins",
-        cookTime: "35 mins",
-        totalTime: "50 mins",
+        cookTime: "30 mins",
+        totalTime: "45 mins",
         directions: [
-            "Make the BBQ sauce: In a food processor, blend the chipotle peppers, adobo sauce, ketchup, vinegar, garlic, mustard, paprika, cumin, and a few grinds of pepper until smooth. Set aside.",
-            "Prepare the jackfruit by pulling shredding the pieces with your hands, discarding any harder pieces of the core. In a large skillet, heat 1 tablespoon of olive oil to medium heat. Add the sliced onion and salt and cook, stirring occasionally, until soft, 8 to 10 minutes, turning down the heat as necessary. Next, add the shredded jackfruit and cook 5 minutes, stirring occasionally. If necessary, add a splash of water to keep it from sticking to the pan. Stir in the 1/2 cup water and half of the BBQ sauce. Turn the heat to low, cover, and let simmer for 20 minutes. Remove the cover and stir in half of the remaining BBQ sauce, reserving the rest for serving.",
-            "Make the slaw: In a medium-large bowl, combine the cabbage, cilantro, lime juice, olive oil, and pinches of salt and pepper.",
-            "Serve the sliders with the jackfruit, the remaining BBQ sauce, the slaw, and desired fixings."
-        ]
-    },
-    {
-        title: "Jack Fruit BBQ",
-        description: "A vegan option for BBQ lovers!",
-        mainImg: "./assets/images/jackfruit-bbq.jpeg",
-        ingredients: [
-            {
-                title: "BBQ Sauce",
-                ingreds: [
-                    "2 chipotle peppers",
-                    "1/2 cup ketchup",
-                    "2 garlic cloves",
-                    "1/2 teaspoon cumin",
-                    "black pepper"
-                ]
-            },
-            {
-                title: "Jackfruit",
-                ingreds: [
-                    "1 tbsp olive oil",
-                    "1 small yellow onion",
-                    "1 can jackfruit, drained",
-                    "1/2 cup water"
-                ]
-            },
-            {
-                title: "Quick Slaw",
-                ingreds: [
-                    "2 cups shredded cabbage",
-                    "1/4 cup cilantro",
-                    "1/2 tbsp lime juice"
-                ]
-            }
-        ],
-        prepTime: "15 mins",
-        cookTime: "35 mins",
-        totalTime: "50 mins",
-        directions: [
-            "Make the BBQ sauce: In a food processor, blend the chipotle peppers, adobo sauce, ketchup, vinegar, garlic, mustard, paprika, cumin, and a few grinds of pepper until smooth. Set aside.",
-            "Prepare the jackfruit by pulling shredding the pieces with your hands, discarding any harder pieces of the core. In a large skillet, heat 1 tablespoon of olive oil to medium heat. Add the sliced onion and salt and cook, stirring occasionally, until soft, 8 to 10 minutes, turning down the heat as necessary. Next, add the shredded jackfruit and cook 5 minutes, stirring occasionally. If necessary, add a splash of water to keep it from sticking to the pan. Stir in the 1/2 cup water and half of the BBQ sauce. Turn the heat to low, cover, and let simmer for 20 minutes. Remove the cover and stir in half of the remaining BBQ sauce, reserving the rest for serving.",
-            "Make the slaw: In a medium-large bowl, combine the cabbage, cilantro, lime juice, olive oil, and pinches of salt and pepper.",
-            "Serve the sliders with the jackfruit, the remaining BBQ sauce, the slaw, and desired fixings."
+            "Heat jackfruit, carrot, and onion in a deep saucepan with olive oil for 10 minutes (or until aromatic and onion is translucent).",
+            "Add veggie stock and water. Cover and bring to a boil, then reduce heat down to a simmer for 10 minutes.",
+            "Add lemon juice and optional spices.",
+            "Simmer for another 10 minutes.",
+            "While simmering soup, cook pasta according to box.",
+            "Once soup is done stir in pasta and add other spices to taste.",
+            "Serve"
         ]
     }
 ]
