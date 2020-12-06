@@ -1,19 +1,21 @@
 var recipeDisplay = $("#recipes-row")
 
 for(var i = 0; i < recipes.length; i++) {
-    recipeCol = $("<div>").addClass("col-12 col-md-6")
-    recipeCard = $("<div>").addClass("card mb-2").attr("id", i)
-    recipeCardImg = $("<img>").addClass("card-img-top").attr("src",recipes[i].mainImg)
-    recipeCardBody = $("<div>").addClass("card-body")
-    recipeCardBodyTitle = $("<h5>").addClass("card-title").text(recipes[i].title)
-    recipeCardBodyDescr = $("<p>").addClass("card-text").text(recipes[i].description)
-
-    recipeCardBody.append(recipeCardBodyTitle, recipeCardBodyDescr)
-    recipeCard.append(recipeCardImg, recipeCardBody)
-    recipeCol.append(recipeCard)
+    var recipeCol = $("<div>").addClass("col-6 col-md-4")
+    recipeCol.html(
+        `
+        <div class="recipe-container mb-2" id="` + i + `">
+            <img class="recipe-img" src="` + recipes[i].mainImg + `"/>
+            <div class="recipe-display-text">
+                <h5>` + recipes[i].title + `</h5>
+                <p>` + recipes[i].description + `</p>
+            </div>
+        </div>
+        `
+    )
     recipeDisplay.append(recipeCol)
 }
 
-$("#recipes-container").on("click", ".card", function(){
+$("#recipes-container").on("click", ".recipe-container", function(){
     window.location = "./recipes.html?" + $(this).attr("id")
 })

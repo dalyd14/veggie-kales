@@ -12,15 +12,11 @@
     justify-content: flex-end;
 }
 
-.card {
+.recipe-container:hover{
+    cursor: pointer;
+}
+.recipe-img {
     max-width: 100%;
-}
-.card-text {
-    word-wrap: break-word;
-}
-.card-img-top {
-    height: 340px;
-    width: 100%
 }
 
 #recipe {
