@@ -25,3 +25,8 @@
 #recipe-img {
     width: 340px
 }
+
+.time p {
+    padding-left: 5px;
+    padding-right: 5px;
+}

@@ -8,9 +8,12 @@ var recipe = recipes[i]
 
 $("#recipe-title").text(recipe.title)
 $("#description").text(recipe.description)
-console.log(recipe.mainImg)
+
+$("#prep-time").text(recipe.prepTime)
+$("#cook-time").text(recipe.cookTime)
+$("#total-time").text(recipe.totalTime)
+
 $("#recipe-img").attr("src", recipe.mainImg)
-console.log(recipe.mainImg)
 
 for(var n = 0; n < recipe.ingredients.length; n++) {
     if ("title" in recipe.ingredients[n]) {
@@ -31,5 +34,17 @@ for(var k = 0; k < recipe.directions.length; k++){
     var directItem = $("<li>").text(recipe.directions[k])
     directionsList.append(directItem)
 }
+
+if ("variations" in recipe) {
+    $("#recipe").append($("<h3>").text("Variaions"))
+    $("#recipe").append($("<div>").addClass("variations-container"))
+    var variationsList = $("<ul>")
+    for(var k = 0; k < recipe.variations.length; k++){
+        var variationItem = $("<li>").text(recipe.variations[k])
+        variationsList.append(variationItem)
+    }
+    $(".variations-container").append(variationsList)
+}
+
 
 $(".directions-container").append(directionsList)

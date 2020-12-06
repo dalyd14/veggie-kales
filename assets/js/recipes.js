@@ -26,7 +26,13 @@ var recipes = [
             "Put potatoes (cut side down), carrots, and chickpeas on the baking sheet and drizzle 1 ½ tbsp of olive oil. Add ¾ of the listed herbs/spices and toss to coat.",
             "Roast for 20-25 minutes.",
             "Remove pan from the oven and push the vegetables to one side. Place onion and asparagus alongside the other vegetables on the sheet pan. Toss them in remining oil and spices/herbs. Place back in the oven for 10-15 additional minutes.",
-            "Let cool and serve."            
+            "Let cool and serve.",
+            "Can be stored in the refrigerator for up to six days."
+        ],
+        variations: [
+            "Plate with avocado and top with fresh herbs such as parsley",
+            "Serve over yellow rice, brown rice, or quinoa",
+            "Top a salad with these roasted veggies"
         ]
     },
     {
@@ -60,6 +66,11 @@ var recipes = [
             "Bake for 30 minutes.",
             "After baking carefully pull out of the oven and top with cheese (optional: nutritional yeast). Place back in the oven for an additional 10 minutes.",
             "Let cool, add optional toppings, serve."            
+        ],
+        variations: [
+            "Plate with avocado and top with fresh herbs such as parsley",
+            "Serve over yellow rice, brown rice, or quinoa",
+            "Top a salad with these roasted veggies"
         ]
     },
     {
