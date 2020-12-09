@@ -36,7 +36,7 @@ for(var k = 0; k < recipe.directions.length; k++){
 }
 
 if ("variations" in recipe) {
-    $("#recipe").append($("<h3>").text("Variaions"))
+    $("#recipe").append($("<h3>").text("Variations"))
     $("#recipe").append($("<div>").addClass("variations-container"))
     var variationsList = $("<ul>")
     for(var k = 0; k < recipe.variations.length; k++){
