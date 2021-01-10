@@ -104,5 +104,32 @@ var recipes = [
             "Once soup is done stir in pasta and add other spices to taste.",
             "Serve"
         ]
+    },
+    {
+        title: "Holiday Mojito Mocktail",
+        description: "A non-alcholic version of a holiday classic!",
+        mainImg: "./assets/images/holiday-mojito-mocktail.jpg",
+        ingredients: [
+            {
+                ingreds: [
+                    "6 tbsp sugar",
+                    "6 tbsp water",
+                    "1 cup fresh cranberries",
+                    "10-20 sprigs of mint",
+                    "4 limes, juiced",
+                    "8 ounces of pomegranate juice",
+                    "3 cans of ginger ale"
+                ]
+            }
+        ],
+        prepTime: "10 mins",
+        cookTime: "10 mins",
+        totalTime: "20 mins",
+        directions: [
+            "Make cranberry simple syrup by combining sugar, water, and fresh cranberries in a saucepan. Put on low heat and simmer for 5 to 10 minutes. The cranberries will begin to open up the syrup will become thicker. Let cool.",
+            "Add mint and lime peel to pitcher, muddle together.",
+            "Add in the ginger ale, lime juice, pomegranate juice, and cranberry syrup into the pitcher and stir.",
+            "For a finished look, garnish with more mint leaves and cranberries"
+        ]
     }
 ]

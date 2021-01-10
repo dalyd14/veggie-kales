@@ -8,7 +8,6 @@ for(var i = 0; i < recipes.length; i++) {
             <img class="recipe-img" src="` + recipes[i].mainImg + `"/>
             <div class="recipe-display-text">
                 <h5>` + recipes[i].title + `</h5>
-                <p>` + recipes[i].description + `</p>
             </div>
         </div>
         `
