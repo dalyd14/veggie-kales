@@ -38,7 +38,7 @@ var recipes = [
     {
         title: "Mexican Quinoa Casserole",
         description: "A hearty mexican casserole that is ideal for meal-prepping for the week!",
-        mainImg: "./assets/images/mexican-quinoa-casserole.jpg",
+        mainImg: "./assets/images/mexican-quinoa-casserole.jpeg",
         ingredients: [
             {
                 ingreds: [
@@ -76,7 +76,7 @@ var recipes = [
     {
         title: "Jackfruit Noodle Soup",
         description: "A vegan take on the chicken noodle soup classic!",
-        mainImg: "./assets/images/jackfruit-noodle-soup.jpg",
+        mainImg: "./assets/images/jackfruit-noodle-soup.jpeg",
         ingredients: [
             {
                 ingreds: [
