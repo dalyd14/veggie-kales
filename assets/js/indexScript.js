@@ -16,5 +16,5 @@ for(var i = 0; i < recipes.length; i++) {
 }
 
 $("#recipes-container").on("click", ".recipe-container", function(){
-    window.location = "./recipes.html?" + $(this).attr("id")
+    window.location = "/recipes?" + $(this).attr("id")
 })
