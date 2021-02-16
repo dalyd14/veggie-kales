@@ -160,7 +160,7 @@ var recipes = [
             "Let cool and serve.",
             "Can be stored in the refrigerator for up to six days."
         ],
-        variations: [
+        Variations: [
             "Plate with avocado and top with fresh herbs such as parsley",
             "Serve over yellow rice, brown rice, or quinoa",
             "Top a salad with these roasted veggies"
@@ -198,7 +198,7 @@ var recipes = [
             "After baking carefully pull out of the oven and top with cheese (optional: nutritional yeast). Place back in the oven for an additional 10 minutes.",
             "Let cool, add optional toppings, serve."            
         ],
-        variations: [
+        Variations: [
             "Plate with avocado and top with fresh herbs such as parsley",
             "Serve over yellow rice, brown rice, or quinoa",
             "Top a salad with these roasted veggies"
