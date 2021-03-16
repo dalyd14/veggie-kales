@@ -1,5 +1,34 @@
 var recipes = [
     {
+        title: "Veggie Pot Pie",
+        description: "An easy vegetarian spin on a classic favorite.",
+        mainImg: "./assets/images/pot-pie.jpg",
+        servingCount: "2",
+        ingredients: [
+            {
+                ingreds: [
+                    "1 can of condensed cream of potato soup",
+                    "2 cups of canned or frozen mixed vegetables (canned- drained and rinsed)",
+                    "½ yellow onion, chopped",
+                    "½ cup oat milk",
+                    "½ tsp dried thyme",
+                    "½ tsp black pepper",
+                    "2 frozen pie crusts"
+                ]
+            }
+        ],
+        prepTime: "5 mins",
+        cookTime: "40 mins",
+        totalTime: "45 mins",
+        directions: [
+            "Preheat oven to 375°F",
+            "Combine soup, veggies, milk, and spices in a bowl",
+            "Place 1 pie crust into pan and spoon in the filling",
+            "Cover with top crust and press edges together",
+            "Bake for 40 minutes"
+        ]
+    },
+    {
         title: "Fancy Ramen - For One",
         description: "An Asian favorite with wholesome ingredients.",
         mainImg: "./assets/images/fancy-ramen.jpeg",
