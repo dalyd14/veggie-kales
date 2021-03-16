@@ -3,7 +3,7 @@ var recipes = [
         title: "Veggie Pot Pie",
         description: "An easy vegetarian spin on a classic favorite.",
         mainImg: "./assets/images/pot-pie.jpg",
-        servingCount: "2",
+        servingCount: "4",
         ingredients: [
             {
                 ingreds: [
